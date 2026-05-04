@@ -1,0 +1,29 @@
+# Environment variables (API keys)
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Data files
+data/sample_data/*.csv
+data/sample_data/*.xlsx
+
+# Reports
+reports/*.pdf
+reports/*.xlsx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
