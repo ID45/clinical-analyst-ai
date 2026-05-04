@@ -1,0 +1,1001 @@
+patient_id,age,gender,admission_date,discharge_date,length_of_stay,diagnosis,discharge_status,department
+PT00000,32,M,2024-03-22,2024-03-26,4,COPD,home,Pulmonology
+PT00001,87,M,2024-01-14,2024-01-16,2,Surgical Procedure,home,Cardiology
+PT00002,45,M,2024-01-12,2024-01-14,2,Cancer Treatment,home,Emergency
+PT00003,87,F,2024-01-26,2024-01-28,2,Stroke,home,General Medicine
+PT00004,38,F,2024-01-01,2024-01-10,9,Sepsis,home,Pulmonology
+PT00005,31,M,2024-02-13,2024-02-18,5,Hip Fracture,home,Nephrology
+PT00006,95,F,2024-02-14,2024-02-16,2,Pneumonia,home,Emergency
+PT00007,66,M,2024-01-16,2024-01-20,4,Cancer Treatment,home,Surgery
+PT00008,64,M,2024-03-20,2024-03-23,3,Heart Failure,home,Pulmonology
+PT00009,28,M,2024-02-07,2024-02-08,1,Heart Failure,home,ICU
+PT00010,64,M,2024-03-22,2024-03-23,1,Sepsis,home,Surgery
+PT00011,27,M,2024-02-04,2024-02-08,4,Cancer Treatment,home,Pulmonology
+PT00012,66,F,2024-02-29,2024-03-08,8,Cancer Treatment,home,General Medicine
+PT00013,47,M,2024-01-08,2024-01-10,2,Sepsis,home,Cardiology
+PT00014,90,F,2024-01-28,2024-01-30,2,Stroke,home,ICU
+PT00015,76,M,2024-03-23,2024-03-26,3,COPD,home,Surgery
+PT00016,86,F,2024-03-12,2024-03-14,2,Surgical Procedure,home,Emergency
+PT00017,64,M,2024-02-21,2024-02-23,2,Diabetes Complications,home,Cardiology
+PT00018,32,M,2024-01-07,2024-01-10,3,Diabetes Complications,home,ICU
+PT00019,26,F,2024-03-17,2024-03-18,1,Hip Fracture,home,ICU
+PT00020,50,M,2024-03-08,2024-03-13,5,Heart Failure,home,Emergency
+PT00021,61,M,2024-02-04,2024-02-05,1,COPD,home,ICU
+PT00022,51,M,2024-01-01,2024-01-02,1,Cancer Treatment,home,Nephrology
+PT00023,56,M,2024-03-21,2024-03-24,3,Diabetes Complications,home,Pulmonology
+PT00024,85,M,2024-03-10,2024-03-15,5,Surgical Procedure,home,Cardiology
+PT00025,64,F,2024-01-15,2024-01-18,3,Stroke,home,Emergency
+PT00026,28,F,2024-01-11,2024-01-14,3,Heart Failure,transferred,Emergency
+PT00027,34,F,2024-01-17,2024-01-19,2,Cancer Treatment,home,Emergency
+PT00028,72,M,2024-03-18,2024-03-20,2,Cancer Treatment,home,Surgery
+PT00029,57,F,2024-01-26,2024-02-01,6,Sepsis,home,Emergency
+PT00030,33,M,2024-02-27,2024-03-02,4,Stroke,home,Cardiology
+PT00031,88,M,2024-03-16,2024-03-18,2,Surgical Procedure,home,Cardiology
+PT00032,25,M,2024-03-31,2024-04-01,1,Heart Failure,home,Nephrology
+PT00033,27,M,2024-02-12,2024-02-17,5,COPD,home,Pulmonology
+PT00034,34,F,2024-03-10,2024-03-16,6,Stroke,home,Nephrology
+PT00035,42,M,2024-02-22,2024-02-28,6,Heart Failure,home,General Medicine
+PT00036,70,F,2024-02-24,2024-02-25,1,Pneumonia,home,Surgery
+PT00037,25,F,2024-01-13,2024-01-15,2,Sepsis,home,Cardiology
+PT00038,42,M,2024-02-01,2024-02-03,2,Cancer Treatment,home,ICU
+PT00039,53,F,2024-01-24,2024-01-26,2,Stroke,home,Cardiology
+PT00040,88,M,2024-02-26,2024-03-02,5,Pneumonia,home,Emergency
+PT00041,29,M,2024-01-02,2024-01-10,8,Diabetes Complications,home,ICU
+PT00042,69,M,2024-01-28,2024-02-01,4,Diabetes Complications,home,ICU
+PT00043,76,F,2024-02-03,2024-02-04,1,Hip Fracture,home,Surgery
+PT00044,80,M,2024-03-12,2024-03-15,3,Stroke,home,Cardiology
+PT00045,87,M,2024-03-15,2024-03-24,9,Sepsis,home,Emergency
+PT00046,82,M,2024-03-02,2024-03-05,3,Pneumonia,transferred,Cardiology
+PT00047,26,M,2024-01-24,2024-01-26,2,Stroke,home,Emergency
+PT00048,92,M,2024-02-01,2024-02-03,2,Surgical Procedure,home,Surgery
+PT00049,90,F,2024-03-15,2024-03-19,4,COPD,home,Surgery
+PT00050,48,F,2024-02-10,2024-02-11,1,Hip Fracture,home,Surgery
+PT00051,76,F,2024-02-08,2024-02-10,2,Heart Failure,home,Emergency
+PT00052,30,M,2024-03-13,2024-03-19,6,Cancer Treatment,home,General Medicine
+PT00053,62,M,2024-01-17,2024-01-21,4,Stroke,home,Pulmonology
+PT00054,87,F,2024-02-26,2024-02-29,3,Surgical Procedure,deceased,Nephrology
+PT00055,85,M,2024-03-24,2024-03-30,6,Cancer Treatment,home,Surgery
+PT00056,35,F,2024-01-14,2024-01-15,1,Heart Failure,home,Surgery
+PT00057,37,F,2024-03-11,2024-03-13,2,COPD,home,Surgery
+PT00058,44,F,2024-02-13,2024-02-17,4,Cancer Treatment,home,Nephrology
+PT00059,29,F,2024-01-07,2024-01-11,4,COPD,home,General Medicine
+PT00060,51,M,2024-01-17,2024-01-18,1,Kidney Disease,home,ICU
+PT00061,19,M,2024-03-12,2024-03-14,2,Heart Failure,transferred,Surgery
+PT00062,87,M,2024-01-20,2024-01-22,2,Sepsis,home,Pulmonology
+PT00063,34,M,2024-02-25,2024-02-29,4,COPD,home,Nephrology
+PT00064,63,M,2024-01-06,2024-01-10,4,Stroke,home,General Medicine
+PT00065,70,M,2024-03-12,2024-03-15,3,Stroke,home,Nephrology
+PT00066,70,M,2024-01-23,2024-01-24,1,Diabetes Complications,home,General Medicine
+PT00067,49,F,2024-02-22,2024-02-25,3,Diabetes Complications,home,Cardiology
+PT00068,22,F,2024-02-18,2024-02-21,3,Stroke,home,ICU
+PT00069,57,M,2024-02-14,2024-02-28,14,Stroke,home,Pulmonology
+PT00070,60,F,2024-02-21,2024-02-23,2,Heart Failure,transferred,General Medicine
+PT00071,83,F,2024-02-14,2024-02-18,4,Cancer Treatment,home,Cardiology
+PT00072,51,M,2024-01-15,2024-01-22,7,Surgical Procedure,transferred,General Medicine
+PT00073,31,F,2024-01-05,2024-01-10,5,Sepsis,home,General Medicine
+PT00074,95,M,2024-02-25,2024-03-04,8,Hip Fracture,home,Pulmonology
+PT00075,23,F,2024-02-02,2024-02-03,1,Pneumonia,home,Nephrology
+PT00076,43,F,2024-03-09,2024-03-10,1,Hip Fracture,home,Surgery
+PT00077,58,M,2024-02-12,2024-02-14,2,COPD,home,Surgery
+PT00078,59,F,2024-02-22,2024-02-23,1,COPD,home,Pulmonology
+PT00079,66,M,2024-02-23,2024-02-26,3,Surgical Procedure,home,ICU
+PT00080,18,F,2024-03-11,2024-03-12,1,COPD,home,Nephrology
+PT00081,95,F,2024-03-15,2024-03-24,9,Kidney Disease,home,Surgery
+PT00082,83,F,2024-01-28,2024-01-29,1,Diabetes Complications,home,General Medicine
+PT00083,60,M,2024-03-06,2024-03-08,2,Stroke,home,Pulmonology
+PT00084,36,M,2024-01-26,2024-01-31,5,Pneumonia,home,ICU
+PT00085,27,F,2024-03-19,2024-03-20,1,Hip Fracture,home,Emergency
+PT00086,67,F,2024-01-25,2024-01-26,1,Hip Fracture,home,Surgery
+PT00087,18,M,2024-03-29,2024-04-01,3,Hip Fracture,home,Nephrology
+PT00088,84,F,2024-03-30,2024-04-03,4,Pneumonia,home,Nephrology
+PT00089,76,M,2024-01-16,2024-01-21,5,Kidney Disease,home,Emergency
+PT00090,58,F,2024-03-17,2024-03-21,4,Surgical Procedure,home,Emergency
+PT00091,88,F,2024-02-24,2024-02-28,4,Diabetes Complications,home,ICU
+PT00092,51,M,2024-02-27,2024-02-28,1,COPD,home,Emergency
+PT00093,48,F,2024-03-03,2024-03-06,3,Kidney Disease,home,General Medicine
+PT00094,52,F,2024-01-31,2024-02-04,4,Sepsis,home,Cardiology
+PT00095,37,M,2024-01-18,2024-01-19,1,Hip Fracture,home,Surgery
+PT00096,26,F,2024-01-28,2024-02-07,10,Hip Fracture,home,ICU
+PT00097,25,M,2024-02-23,2024-02-27,4,Hip Fracture,home,Nephrology
+PT00098,20,F,2024-03-15,2024-03-16,1,Kidney Disease,home,General Medicine
+PT00099,67,F,2024-02-08,2024-02-13,5,Cancer Treatment,home,Emergency
+PT00100,46,F,2024-03-18,2024-03-24,6,Stroke,home,ICU
+PT00101,67,F,2024-01-04,2024-01-08,4,Hip Fracture,home,Nephrology
+PT00102,34,M,2024-02-29,2024-03-02,2,Hip Fracture,home,Surgery
+PT00103,28,F,2024-01-04,2024-01-05,1,Diabetes Complications,home,Pulmonology
+PT00104,51,F,2024-01-07,2024-01-10,3,Sepsis,home,General Medicine
+PT00105,66,F,2024-02-13,2024-02-17,4,Hip Fracture,home,Cardiology
+PT00106,20,M,2024-03-01,2024-03-04,3,Sepsis,home,Cardiology
+PT00107,23,M,2024-03-24,2024-04-01,8,Stroke,home,Cardiology
+PT00108,37,M,2024-03-20,2024-03-25,5,Diabetes Complications,home,Cardiology
+PT00109,45,F,2024-03-13,2024-03-14,1,COPD,home,Pulmonology
+PT00110,95,M,2024-03-18,2024-03-19,1,Diabetes Complications,transferred,Cardiology
+PT00111,21,F,2024-03-15,2024-03-19,4,Surgical Procedure,home,ICU
+PT00112,43,M,2024-02-20,2024-02-22,2,Surgical Procedure,home,Surgery
+PT00113,31,F,2024-02-01,2024-02-06,5,Surgical Procedure,home,Nephrology
+PT00114,23,F,2024-03-13,2024-03-17,4,Cancer Treatment,home,General Medicine
+PT00115,82,F,2024-01-09,2024-01-12,3,Pneumonia,home,Nephrology
+PT00116,31,F,2024-03-03,2024-03-04,1,Sepsis,home,Nephrology
+PT00117,37,F,2024-02-28,2024-02-29,1,Diabetes Complications,home,Surgery
+PT00118,86,F,2024-02-04,2024-02-07,3,Kidney Disease,home,Surgery
+PT00119,52,F,2024-03-16,2024-03-17,1,Stroke,home,Cardiology
+PT00120,75,M,2024-02-05,2024-02-06,1,Kidney Disease,home,Surgery
+PT00121,61,M,2024-02-18,2024-02-21,3,Kidney Disease,home,Pulmonology
+PT00122,45,F,2024-03-03,2024-03-06,3,COPD,home,Emergency
+PT00123,53,M,2024-03-30,2024-03-31,1,Cancer Treatment,transferred,Cardiology
+PT00124,70,F,2024-01-31,2024-02-06,6,Cancer Treatment,home,Surgery
+PT00125,80,F,2024-03-01,2024-03-07,6,Pneumonia,home,Pulmonology
+PT00126,49,F,2024-02-21,2024-02-25,4,Surgical Procedure,home,Emergency
+PT00127,62,F,2024-03-08,2024-03-12,4,Cancer Treatment,home,Surgery
+PT00128,52,F,2024-02-28,2024-03-03,4,COPD,home,Surgery
+PT00129,58,M,2024-01-25,2024-01-31,6,Cancer Treatment,transferred,Surgery
+PT00130,42,M,2024-01-24,2024-01-29,5,Kidney Disease,home,Emergency
+PT00131,94,F,2024-03-08,2024-03-09,1,Heart Failure,home,General Medicine
+PT00132,64,M,2024-01-30,2024-02-01,2,COPD,home,Emergency
+PT00133,53,M,2024-01-17,2024-01-30,13,Pneumonia,home,Surgery
+PT00134,80,M,2024-01-17,2024-01-18,1,Pneumonia,home,ICU
+PT00135,74,F,2024-03-02,2024-03-04,2,Diabetes Complications,transferred,General Medicine
+PT00136,32,M,2024-03-02,2024-03-09,7,Hip Fracture,home,Emergency
+PT00137,24,M,2024-03-21,2024-03-22,1,Diabetes Complications,home,General Medicine
+PT00138,49,M,2024-01-11,2024-01-16,5,Cancer Treatment,home,Emergency
+PT00139,46,F,2024-03-17,2024-03-20,3,Kidney Disease,home,General Medicine
+PT00140,72,F,2024-03-16,2024-03-17,1,Surgical Procedure,home,Emergency
+PT00141,44,M,2024-01-13,2024-01-14,1,COPD,home,Pulmonology
+PT00142,40,M,2024-01-31,2024-02-03,3,Diabetes Complications,home,ICU
+PT00143,94,F,2024-03-29,2024-03-30,1,COPD,home,General Medicine
+PT00144,54,F,2024-03-31,2024-04-03,3,Heart Failure,home,General Medicine
+PT00145,93,M,2024-03-21,2024-03-25,4,Hip Fracture,home,Pulmonology
+PT00146,37,F,2024-03-23,2024-03-29,6,Diabetes Complications,home,Pulmonology
+PT00147,94,F,2024-02-09,2024-02-11,2,Kidney Disease,home,Surgery
+PT00148,69,F,2024-02-08,2024-02-09,1,Cancer Treatment,home,ICU
+PT00149,94,M,2024-01-11,2024-01-12,1,Hip Fracture,home,Emergency
+PT00150,21,M,2024-02-02,2024-02-08,6,Stroke,transferred,Nephrology
+PT00151,93,M,2024-03-14,2024-03-26,12,COPD,home,Nephrology
+PT00152,78,F,2024-01-23,2024-01-29,6,COPD,home,Emergency
+PT00153,80,M,2024-02-25,2024-03-03,7,Kidney Disease,home,General Medicine
+PT00154,31,M,2024-02-11,2024-02-12,1,Sepsis,home,ICU
+PT00155,69,M,2024-02-06,2024-02-10,4,Kidney Disease,home,General Medicine
+PT00156,32,F,2024-02-11,2024-02-16,5,Cancer Treatment,home,Cardiology
+PT00157,87,F,2024-03-25,2024-03-26,1,Hip Fracture,home,Emergency
+PT00158,81,F,2024-02-16,2024-02-25,9,Pneumonia,home,Emergency
+PT00159,54,F,2024-01-17,2024-01-18,1,Kidney Disease,home,Surgery
+PT00160,48,M,2024-03-18,2024-03-26,8,COPD,home,Emergency
+PT00161,29,M,2024-02-22,2024-02-23,1,Heart Failure,home,Cardiology
+PT00162,37,F,2024-03-23,2024-03-24,1,COPD,home,General Medicine
+PT00163,79,F,2024-02-23,2024-02-27,4,Stroke,home,Pulmonology
+PT00164,42,M,2024-02-19,2024-02-22,3,Heart Failure,home,Nephrology
+PT00165,61,F,2024-02-23,2024-02-25,2,Pneumonia,home,General Medicine
+PT00166,92,F,2024-03-16,2024-03-25,9,Diabetes Complications,home,ICU
+PT00167,60,F,2024-02-14,2024-02-15,1,Kidney Disease,transferred,Nephrology
+PT00168,48,F,2024-01-25,2024-01-27,2,Stroke,home,ICU
+PT00169,58,F,2024-01-06,2024-01-11,5,Hip Fracture,home,Surgery
+PT00170,37,F,2024-03-24,2024-03-28,4,Pneumonia,home,Emergency
+PT00171,30,F,2024-02-12,2024-02-13,1,Heart Failure,home,ICU
+PT00172,36,F,2024-01-02,2024-01-04,2,Diabetes Complications,home,Nephrology
+PT00173,61,F,2024-02-03,2024-02-09,6,Heart Failure,home,Nephrology
+PT00174,86,F,2024-03-27,2024-04-02,6,Sepsis,home,Nephrology
+PT00175,87,M,2024-03-03,2024-03-07,4,Surgical Procedure,home,Surgery
+PT00176,54,M,2024-03-28,2024-03-29,1,Heart Failure,home,Cardiology
+PT00177,30,F,2024-03-22,2024-03-24,2,Diabetes Complications,home,Cardiology
+PT00178,59,M,2024-01-06,2024-01-09,3,COPD,home,ICU
+PT00179,49,F,2024-01-19,2024-01-22,3,Surgical Procedure,home,Pulmonology
+PT00180,40,M,2024-01-22,2024-01-26,4,Surgical Procedure,home,Emergency
+PT00181,48,F,2024-03-28,2024-03-30,2,Surgical Procedure,home,ICU
+PT00182,50,F,2024-03-22,2024-03-27,5,COPD,home,Nephrology
+PT00183,54,M,2024-02-29,2024-03-05,5,Heart Failure,home,General Medicine
+PT00184,56,F,2024-03-16,2024-03-23,7,COPD,home,General Medicine
+PT00185,67,F,2024-01-26,2024-01-29,3,Heart Failure,home,Emergency
+PT00186,91,F,2024-02-15,2024-02-19,4,COPD,home,Nephrology
+PT00187,68,F,2024-03-25,2024-03-28,3,Pneumonia,home,Surgery
+PT00188,95,F,2024-01-07,2024-01-08,1,COPD,home,Pulmonology
+PT00189,63,M,2024-03-18,2024-03-30,12,Stroke,home,Surgery
+PT00190,35,M,2024-03-25,2024-04-01,7,Pneumonia,home,ICU
+PT00191,92,F,2024-01-05,2024-01-10,5,Diabetes Complications,home,General Medicine
+PT00192,71,M,2024-02-11,2024-02-14,3,Stroke,home,Emergency
+PT00193,85,F,2024-02-16,2024-02-17,1,Diabetes Complications,home,Nephrology
+PT00194,55,F,2024-03-02,2024-03-08,6,Heart Failure,home,Cardiology
+PT00195,46,F,2024-01-19,2024-01-21,2,Cancer Treatment,home,Nephrology
+PT00196,19,F,2024-02-20,2024-02-24,4,Cancer Treatment,home,General Medicine
+PT00197,51,F,2024-03-27,2024-03-29,2,Sepsis,home,Pulmonology
+PT00198,21,F,2024-03-01,2024-03-05,4,Surgical Procedure,home,Cardiology
+PT00199,77,F,2024-03-22,2024-03-24,2,Hip Fracture,home,Cardiology
+PT00200,56,F,2024-01-05,2024-01-07,2,Heart Failure,home,Emergency
+PT00201,67,F,2024-01-18,2024-01-21,3,Sepsis,home,Surgery
+PT00202,87,F,2024-03-30,2024-03-31,1,Surgical Procedure,home,Pulmonology
+PT00203,30,F,2024-02-23,2024-02-24,1,Surgical Procedure,home,General Medicine
+PT00204,65,M,2024-01-05,2024-01-06,1,Kidney Disease,home,Pulmonology
+PT00205,30,F,2024-02-16,2024-02-18,2,Cancer Treatment,home,Surgery
+PT00206,25,F,2024-02-15,2024-02-21,6,COPD,home,Cardiology
+PT00207,29,M,2024-02-28,2024-03-01,2,Surgical Procedure,transferred,Cardiology
+PT00208,49,M,2024-02-12,2024-02-15,3,Surgical Procedure,home,Nephrology
+PT00209,44,M,2024-03-11,2024-03-13,2,Stroke,home,Pulmonology
+PT00210,18,F,2024-03-17,2024-03-21,4,Diabetes Complications,deceased,Emergency
+PT00211,40,M,2024-02-02,2024-02-03,1,Pneumonia,home,General Medicine
+PT00212,93,F,2024-01-31,2024-02-03,3,Pneumonia,home,Cardiology
+PT00213,71,M,2024-01-17,2024-01-21,4,Heart Failure,home,Nephrology
+PT00214,83,M,2024-02-16,2024-02-19,3,Kidney Disease,home,Emergency
+PT00215,84,F,2024-01-06,2024-01-09,3,Kidney Disease,home,Cardiology
+PT00216,79,F,2024-01-08,2024-01-11,3,Hip Fracture,home,ICU
+PT00217,27,M,2024-02-26,2024-03-01,4,Sepsis,home,Cardiology
+PT00218,53,F,2024-01-17,2024-01-29,12,Hip Fracture,deceased,Emergency
+PT00219,76,F,2024-02-07,2024-02-08,1,Heart Failure,home,Cardiology
+PT00220,88,M,2024-03-24,2024-04-05,12,Hip Fracture,home,Pulmonology
+PT00221,61,F,2024-02-22,2024-02-23,1,Hip Fracture,home,Cardiology
+PT00222,72,F,2024-02-10,2024-02-11,1,COPD,home,Pulmonology
+PT00223,78,M,2024-03-28,2024-03-30,2,Heart Failure,home,Cardiology
+PT00224,30,F,2024-02-25,2024-02-29,4,Diabetes Complications,home,Emergency
+PT00225,89,F,2024-03-12,2024-03-22,10,Heart Failure,home,Nephrology
+PT00226,72,M,2024-03-26,2024-03-27,1,COPD,home,General Medicine
+PT00227,91,M,2024-01-14,2024-01-18,4,Diabetes Complications,home,Pulmonology
+PT00228,62,F,2024-01-14,2024-01-15,1,Heart Failure,home,Emergency
+PT00229,72,M,2024-01-29,2024-02-08,10,Surgical Procedure,transferred,Nephrology
+PT00230,52,M,2024-03-29,2024-04-05,7,Diabetes Complications,home,Nephrology
+PT00231,61,F,2024-02-09,2024-02-11,2,Pneumonia,home,Pulmonology
+PT00232,69,M,2024-03-13,2024-03-21,8,Diabetes Complications,home,Cardiology
+PT00233,85,M,2024-01-12,2024-01-15,3,Hip Fracture,home,General Medicine
+PT00234,65,F,2024-01-21,2024-01-28,7,Sepsis,home,Emergency
+PT00235,28,M,2024-03-17,2024-03-20,3,Diabetes Complications,home,Emergency
+PT00236,28,F,2024-01-07,2024-01-10,3,Kidney Disease,home,ICU
+PT00237,74,F,2024-03-18,2024-03-20,2,COPD,home,Emergency
+PT00238,62,F,2024-01-15,2024-01-20,5,Heart Failure,home,Surgery
+PT00239,80,F,2024-03-16,2024-03-19,3,Pneumonia,home,Emergency
+PT00240,18,M,2024-01-08,2024-01-12,4,COPD,transferred,Nephrology
+PT00241,50,F,2024-01-18,2024-01-19,1,Sepsis,home,ICU
+PT00242,40,M,2024-02-25,2024-03-03,7,Hip Fracture,home,Pulmonology
+PT00243,89,F,2024-03-05,2024-03-14,9,Heart Failure,home,Surgery
+PT00244,73,M,2024-01-06,2024-01-09,3,Kidney Disease,transferred,Nephrology
+PT00245,91,F,2024-02-10,2024-02-21,11,Surgical Procedure,home,Surgery
+PT00246,55,M,2024-02-23,2024-03-04,10,Hip Fracture,home,General Medicine
+PT00247,76,F,2024-01-22,2024-01-27,5,Heart Failure,home,Cardiology
+PT00248,73,F,2024-02-01,2024-02-09,8,Cancer Treatment,home,Nephrology
+PT00249,61,M,2024-02-09,2024-02-15,6,Sepsis,home,Cardiology
+PT00250,32,M,2024-03-06,2024-03-07,1,Sepsis,home,Nephrology
+PT00251,36,M,2024-03-23,2024-03-25,2,Heart Failure,home,Pulmonology
+PT00252,95,M,2024-01-23,2024-01-28,5,Heart Failure,home,Nephrology
+PT00253,81,F,2024-03-21,2024-03-30,9,Surgical Procedure,home,ICU
+PT00254,90,F,2024-03-28,2024-03-29,1,Sepsis,home,Cardiology
+PT00255,74,F,2024-03-01,2024-03-02,1,COPD,home,General Medicine
+PT00256,27,F,2024-03-05,2024-03-08,3,Kidney Disease,home,Cardiology
+PT00257,54,M,2024-02-17,2024-02-18,1,Heart Failure,home,Emergency
+PT00258,77,M,2024-02-19,2024-02-22,3,Kidney Disease,home,Emergency
+PT00259,42,F,2024-03-24,2024-03-28,4,Surgical Procedure,home,Pulmonology
+PT00260,75,M,2024-01-08,2024-01-09,1,Sepsis,deceased,Cardiology
+PT00261,40,M,2024-03-05,2024-03-08,3,Stroke,home,ICU
+PT00262,84,M,2024-03-08,2024-03-14,6,Sepsis,home,General Medicine
+PT00263,70,F,2024-02-19,2024-02-21,2,Surgical Procedure,home,Surgery
+PT00264,60,M,2024-03-23,2024-03-24,1,Sepsis,home,Surgery
+PT00265,54,F,2024-02-19,2024-02-22,3,Surgical Procedure,home,General Medicine
+PT00266,92,M,2024-01-11,2024-01-12,1,Sepsis,home,Surgery
+PT00267,68,M,2024-03-30,2024-04-10,11,Surgical Procedure,home,Cardiology
+PT00268,89,F,2024-02-09,2024-02-12,3,Sepsis,home,Surgery
+PT00269,85,M,2024-03-30,2024-03-31,1,Hip Fracture,home,Cardiology
+PT00270,57,M,2024-02-16,2024-02-19,3,Stroke,home,Nephrology
+PT00271,42,M,2024-03-03,2024-03-06,3,Diabetes Complications,home,General Medicine
+PT00272,82,M,2024-01-13,2024-01-15,2,Sepsis,home,Emergency
+PT00273,94,F,2024-01-17,2024-01-19,2,Diabetes Complications,home,Nephrology
+PT00274,39,F,2024-03-29,2024-03-31,2,Pneumonia,home,Surgery
+PT00275,74,F,2024-01-31,2024-02-01,1,Kidney Disease,home,Pulmonology
+PT00276,78,M,2024-02-09,2024-02-17,8,Sepsis,home,Emergency
+PT00277,77,F,2024-02-26,2024-03-02,5,Hip Fracture,home,ICU
+PT00278,43,M,2024-01-21,2024-01-25,4,COPD,home,ICU
+PT00279,88,M,2024-02-17,2024-02-20,3,Cancer Treatment,home,General Medicine
+PT00280,38,F,2024-01-11,2024-01-12,1,Kidney Disease,home,Pulmonology
+PT00281,29,M,2024-02-25,2024-02-26,1,Kidney Disease,home,Cardiology
+PT00282,24,F,2024-02-23,2024-02-24,1,Cancer Treatment,home,ICU
+PT00283,65,M,2024-01-11,2024-01-12,1,Pneumonia,home,Cardiology
+PT00284,60,M,2024-03-24,2024-03-25,1,Diabetes Complications,home,Nephrology
+PT00285,35,F,2024-03-01,2024-03-10,9,Kidney Disease,home,Cardiology
+PT00286,50,M,2024-01-03,2024-01-09,6,Diabetes Complications,home,Surgery
+PT00287,85,F,2024-03-18,2024-03-21,3,Heart Failure,home,Pulmonology
+PT00288,33,M,2024-02-08,2024-02-09,1,Stroke,home,Nephrology
+PT00289,76,M,2024-03-20,2024-03-21,1,Heart Failure,home,ICU
+PT00290,86,M,2024-03-17,2024-03-19,2,Cancer Treatment,home,Surgery
+PT00291,55,F,2024-01-19,2024-01-25,6,Pneumonia,home,Pulmonology
+PT00292,71,M,2024-03-14,2024-03-15,1,Heart Failure,home,General Medicine
+PT00293,85,M,2024-01-09,2024-01-14,5,Hip Fracture,home,Cardiology
+PT00294,67,F,2024-03-22,2024-03-23,1,COPD,home,General Medicine
+PT00295,62,M,2024-01-09,2024-01-11,2,Heart Failure,home,Surgery
+PT00296,35,M,2024-02-12,2024-02-15,3,Sepsis,home,Nephrology
+PT00297,40,F,2024-03-23,2024-03-24,1,Kidney Disease,home,Nephrology
+PT00298,26,F,2024-01-18,2024-01-20,2,Pneumonia,home,Cardiology
+PT00299,23,F,2024-01-26,2024-01-27,1,COPD,home,Nephrology
+PT00300,78,F,2024-03-10,2024-03-12,2,Pneumonia,home,Pulmonology
+PT00301,63,M,2024-02-06,2024-02-11,5,Sepsis,home,Nephrology
+PT00302,73,F,2024-02-17,2024-02-20,3,Kidney Disease,home,ICU
+PT00303,41,F,2024-02-13,2024-02-18,5,Kidney Disease,home,Nephrology
+PT00304,52,M,2024-03-07,2024-03-08,1,Hip Fracture,home,Emergency
+PT00305,87,F,2024-01-24,2024-01-29,5,Sepsis,home,General Medicine
+PT00306,55,F,2024-03-25,2024-03-26,1,Kidney Disease,home,ICU
+PT00307,74,F,2024-01-22,2024-01-25,3,Kidney Disease,home,Nephrology
+PT00308,73,F,2024-02-15,2024-02-20,5,Pneumonia,home,Surgery
+PT00309,64,M,2024-02-21,2024-02-22,1,Pneumonia,home,Emergency
+PT00310,74,M,2024-03-27,2024-03-28,1,Diabetes Complications,home,Nephrology
+PT00311,64,F,2024-03-23,2024-03-26,3,Hip Fracture,transferred,Cardiology
+PT00312,37,F,2024-03-18,2024-03-24,6,Sepsis,home,Nephrology
+PT00313,91,M,2024-01-10,2024-01-12,2,Cancer Treatment,home,General Medicine
+PT00314,53,M,2024-03-24,2024-03-28,4,Heart Failure,home,Pulmonology
+PT00315,84,F,2024-03-04,2024-03-12,8,Cancer Treatment,home,Nephrology
+PT00316,75,M,2024-02-03,2024-02-08,5,Surgical Procedure,home,ICU
+PT00317,33,M,2024-01-26,2024-01-28,2,Heart Failure,home,Surgery
+PT00318,29,F,2024-02-26,2024-03-01,4,Sepsis,home,Emergency
+PT00319,55,F,2024-03-10,2024-03-12,2,Diabetes Complications,home,Surgery
+PT00320,40,F,2024-03-22,2024-03-25,3,Cancer Treatment,home,Pulmonology
+PT00321,48,F,2024-01-18,2024-01-20,2,Pneumonia,home,Emergency
+PT00322,77,M,2024-02-17,2024-02-21,4,Surgical Procedure,home,Cardiology
+PT00323,68,F,2024-02-09,2024-02-11,2,Cancer Treatment,home,ICU
+PT00324,27,M,2024-03-14,2024-03-18,4,Sepsis,home,ICU
+PT00325,84,F,2024-02-29,2024-03-02,2,Diabetes Complications,home,Nephrology
+PT00326,93,M,2024-03-11,2024-03-17,6,Diabetes Complications,home,Nephrology
+PT00327,33,M,2024-01-08,2024-01-10,2,COPD,home,General Medicine
+PT00328,46,F,2024-03-31,2024-04-01,1,Cancer Treatment,home,Nephrology
+PT00329,50,M,2024-01-11,2024-01-12,1,Cancer Treatment,home,Surgery
+PT00330,86,M,2024-02-08,2024-02-11,3,Cancer Treatment,home,Emergency
+PT00331,37,M,2024-03-15,2024-03-24,9,Surgical Procedure,home,Emergency
+PT00332,90,M,2024-02-13,2024-02-18,5,Pneumonia,home,Surgery
+PT00333,51,M,2024-03-14,2024-03-15,1,Surgical Procedure,home,Surgery
+PT00334,81,F,2024-01-04,2024-01-05,1,COPD,home,Nephrology
+PT00335,69,F,2024-03-28,2024-04-04,7,Kidney Disease,home,Cardiology
+PT00336,74,F,2024-01-21,2024-01-26,5,Kidney Disease,home,General Medicine
+PT00337,36,F,2024-03-18,2024-03-31,13,Sepsis,home,Nephrology
+PT00338,69,M,2024-02-14,2024-02-16,2,Sepsis,home,Cardiology
+PT00339,48,F,2024-02-10,2024-02-11,1,Heart Failure,home,Pulmonology
+PT00340,30,M,2024-01-19,2024-01-22,3,COPD,transferred,Nephrology
+PT00341,71,M,2024-03-19,2024-03-21,2,Diabetes Complications,home,Emergency
+PT00342,42,M,2024-02-10,2024-02-16,6,Kidney Disease,deceased,ICU
+PT00343,57,F,2024-03-04,2024-03-06,2,Pneumonia,home,ICU
+PT00344,76,M,2024-03-05,2024-03-07,2,Stroke,home,Cardiology
+PT00345,54,F,2024-01-07,2024-01-08,1,Surgical Procedure,home,Surgery
+PT00346,78,F,2024-03-27,2024-04-01,5,Cancer Treatment,home,Cardiology
+PT00347,35,F,2024-02-25,2024-02-26,1,Sepsis,home,General Medicine
+PT00348,69,M,2024-01-06,2024-01-10,4,Surgical Procedure,home,General Medicine
+PT00349,54,M,2024-03-11,2024-03-21,10,Hip Fracture,home,Nephrology
+PT00350,53,M,2024-03-11,2024-03-12,1,Diabetes Complications,transferred,ICU
+PT00351,61,F,2024-02-17,2024-02-25,8,Diabetes Complications,home,Emergency
+PT00352,82,M,2024-02-21,2024-02-25,4,Pneumonia,home,Surgery
+PT00353,78,F,2024-02-12,2024-02-13,1,Diabetes Complications,home,Emergency
+PT00354,59,F,2024-01-18,2024-01-21,3,Diabetes Complications,home,Emergency
+PT00355,93,F,2024-02-08,2024-02-13,5,Cancer Treatment,home,Emergency
+PT00356,90,F,2024-03-03,2024-03-04,1,Kidney Disease,home,General Medicine
+PT00357,32,F,2024-02-12,2024-02-16,4,Surgical Procedure,home,Surgery
+PT00358,21,F,2024-03-29,2024-04-07,9,COPD,transferred,Nephrology
+PT00359,91,M,2024-03-15,2024-03-17,2,Pneumonia,home,Pulmonology
+PT00360,66,M,2024-03-08,2024-03-09,1,Stroke,home,Surgery
+PT00361,42,M,2024-01-15,2024-01-18,3,Kidney Disease,home,Pulmonology
+PT00362,44,F,2024-02-22,2024-02-25,3,Cancer Treatment,home,ICU
+PT00363,35,M,2024-01-08,2024-01-15,7,Cancer Treatment,home,Surgery
+PT00364,85,F,2024-03-02,2024-03-04,2,Sepsis,transferred,ICU
+PT00365,61,F,2024-03-09,2024-03-11,2,COPD,home,Pulmonology
+PT00366,53,F,2024-02-01,2024-02-02,1,Stroke,transferred,General Medicine
+PT00367,44,F,2024-02-06,2024-02-07,1,Sepsis,home,Emergency
+PT00368,54,M,2024-02-05,2024-02-06,1,Surgical Procedure,home,ICU
+PT00369,62,M,2024-02-20,2024-02-21,1,COPD,home,Surgery
+PT00370,62,F,2024-01-11,2024-01-13,2,COPD,home,Pulmonology
+PT00371,86,F,2024-01-26,2024-01-27,1,Cancer Treatment,home,Pulmonology
+PT00372,93,M,2024-01-14,2024-01-17,3,Stroke,home,Emergency
+PT00373,47,M,2024-01-29,2024-02-08,10,Heart Failure,home,Surgery
+PT00374,30,M,2024-03-01,2024-03-08,7,Pneumonia,transferred,Pulmonology
+PT00375,78,F,2024-02-22,2024-02-24,2,Stroke,home,General Medicine
+PT00376,54,M,2024-02-11,2024-02-26,15,Heart Failure,home,Pulmonology
+PT00377,22,M,2024-03-09,2024-03-12,3,Hip Fracture,home,Pulmonology
+PT00378,68,F,2024-01-05,2024-01-08,3,Diabetes Complications,transferred,Nephrology
+PT00379,22,M,2024-02-07,2024-02-09,2,COPD,home,Cardiology
+PT00380,54,F,2024-02-12,2024-02-15,3,Cancer Treatment,home,Pulmonology
+PT00381,77,F,2024-03-05,2024-03-07,2,Stroke,home,General Medicine
+PT00382,76,F,2024-01-21,2024-01-23,2,Diabetes Complications,home,General Medicine
+PT00383,90,M,2024-02-07,2024-02-15,8,Diabetes Complications,home,Surgery
+PT00384,72,F,2024-02-21,2024-02-28,7,Heart Failure,home,Cardiology
+PT00385,35,F,2024-01-24,2024-01-25,1,Sepsis,transferred,Cardiology
+PT00386,67,M,2024-02-03,2024-02-04,1,Kidney Disease,home,General Medicine
+PT00387,92,M,2024-02-08,2024-02-09,1,COPD,home,Surgery
+PT00388,25,M,2024-01-31,2024-02-06,6,Kidney Disease,home,ICU
+PT00389,82,F,2024-03-28,2024-04-04,7,Heart Failure,home,General Medicine
+PT00390,46,M,2024-02-17,2024-02-22,5,Diabetes Complications,home,ICU
+PT00391,65,F,2024-03-18,2024-03-19,1,Cancer Treatment,home,Nephrology
+PT00392,45,M,2024-03-09,2024-03-11,2,Surgical Procedure,home,Cardiology
+PT00393,75,F,2024-03-08,2024-03-12,4,Heart Failure,home,Cardiology
+PT00394,88,M,2024-01-08,2024-01-10,2,Surgical Procedure,home,Pulmonology
+PT00395,84,F,2024-02-11,2024-02-13,2,Heart Failure,home,Surgery
+PT00396,80,M,2024-03-15,2024-03-17,2,Cancer Treatment,home,Cardiology
+PT00397,34,F,2024-02-28,2024-03-06,7,Kidney Disease,home,Emergency
+PT00398,57,M,2024-02-29,2024-03-05,5,Hip Fracture,home,Cardiology
+PT00399,92,M,2024-01-28,2024-01-30,2,Pneumonia,home,Surgery
+PT00400,87,M,2024-01-09,2024-01-13,4,Heart Failure,deceased,ICU
+PT00401,54,F,2024-01-05,2024-01-06,1,Diabetes Complications,home,Nephrology
+PT00402,71,F,2024-03-23,2024-03-25,2,Hip Fracture,home,ICU
+PT00403,28,M,2024-02-18,2024-02-24,6,Sepsis,home,Emergency
+PT00404,85,M,2024-02-20,2024-02-21,1,Stroke,home,Nephrology
+PT00405,56,F,2024-01-03,2024-01-08,5,Cancer Treatment,home,ICU
+PT00406,49,F,2024-01-30,2024-01-31,1,Sepsis,home,Pulmonology
+PT00407,22,F,2024-01-15,2024-01-24,9,Surgical Procedure,home,Cardiology
+PT00408,44,M,2024-01-31,2024-02-02,2,Heart Failure,home,ICU
+PT00409,24,M,2024-03-17,2024-03-21,4,Pneumonia,home,Pulmonology
+PT00410,45,M,2024-03-10,2024-03-13,3,Diabetes Complications,home,General Medicine
+PT00411,91,F,2024-01-30,2024-02-02,3,Surgical Procedure,home,Surgery
+PT00412,48,F,2024-02-11,2024-02-15,4,Diabetes Complications,deceased,Emergency
+PT00413,70,F,2024-01-29,2024-01-30,1,COPD,home,Emergency
+PT00414,72,F,2024-01-23,2024-01-26,3,Pneumonia,transferred,Surgery
+PT00415,66,F,2024-03-26,2024-03-28,2,Hip Fracture,home,General Medicine
+PT00416,41,F,2024-02-18,2024-02-20,2,Stroke,home,General Medicine
+PT00417,36,F,2024-03-31,2024-04-01,1,Pneumonia,home,ICU
+PT00418,85,M,2024-03-12,2024-03-15,3,Hip Fracture,home,Pulmonology
+PT00419,28,F,2024-02-12,2024-02-13,1,Sepsis,home,Surgery
+PT00420,24,F,2024-01-25,2024-01-31,6,Hip Fracture,home,Emergency
+PT00421,27,M,2024-01-06,2024-01-10,4,Surgical Procedure,home,Emergency
+PT00422,79,M,2024-01-28,2024-02-01,4,Sepsis,home,Cardiology
+PT00423,42,M,2024-01-28,2024-02-03,6,Kidney Disease,home,Surgery
+PT00424,44,F,2024-03-18,2024-03-19,1,Stroke,home,Nephrology
+PT00425,66,F,2024-02-06,2024-02-07,1,Cancer Treatment,home,General Medicine
+PT00426,64,F,2024-02-03,2024-02-07,4,Kidney Disease,home,Surgery
+PT00427,58,M,2024-03-01,2024-03-02,1,Sepsis,home,Cardiology
+PT00428,46,M,2024-03-13,2024-03-14,1,Pneumonia,home,Emergency
+PT00429,71,F,2024-03-15,2024-03-16,1,Diabetes Complications,home,Pulmonology
+PT00430,90,M,2024-02-18,2024-02-19,1,Kidney Disease,home,Surgery
+PT00431,50,F,2024-02-13,2024-02-19,6,Kidney Disease,home,Surgery
+PT00432,39,M,2024-02-15,2024-02-19,4,Cancer Treatment,home,Emergency
+PT00433,25,M,2024-03-23,2024-03-26,3,Heart Failure,transferred,Surgery
+PT00434,18,F,2024-01-07,2024-01-09,2,Diabetes Complications,home,Pulmonology
+PT00435,37,M,2024-01-09,2024-01-12,3,Stroke,home,General Medicine
+PT00436,79,F,2024-01-08,2024-01-15,7,Pneumonia,home,Emergency
+PT00437,19,M,2024-02-22,2024-02-23,1,Cancer Treatment,home,Emergency
+PT00438,20,F,2024-02-06,2024-02-09,3,Diabetes Complications,home,Cardiology
+PT00439,37,M,2024-03-08,2024-03-18,10,Stroke,home,General Medicine
+PT00440,52,F,2024-02-15,2024-02-20,5,Heart Failure,home,ICU
+PT00441,90,M,2024-02-28,2024-03-01,2,Stroke,home,Nephrology
+PT00442,22,M,2024-01-11,2024-01-16,5,Hip Fracture,home,Emergency
+PT00443,25,M,2024-03-01,2024-03-02,1,Diabetes Complications,home,Nephrology
+PT00444,60,M,2024-02-25,2024-02-28,3,Cancer Treatment,home,Pulmonology
+PT00445,90,F,2024-01-28,2024-02-02,5,COPD,home,Cardiology
+PT00446,53,M,2024-03-28,2024-04-01,4,Diabetes Complications,transferred,General Medicine
+PT00447,44,M,2024-01-03,2024-01-08,5,Hip Fracture,transferred,General Medicine
+PT00448,90,M,2024-01-21,2024-01-26,5,Surgical Procedure,home,ICU
+PT00449,87,F,2024-03-27,2024-03-31,4,Hip Fracture,home,Pulmonology
+PT00450,28,F,2024-03-29,2024-04-02,4,Pneumonia,home,Pulmonology
+PT00451,61,F,2024-01-10,2024-01-13,3,Sepsis,home,General Medicine
+PT00452,80,M,2024-02-27,2024-02-28,1,Sepsis,home,ICU
+PT00453,41,F,2024-02-25,2024-03-02,6,Heart Failure,home,General Medicine
+PT00454,27,M,2024-02-01,2024-02-04,3,COPD,home,Surgery
+PT00455,37,F,2024-03-22,2024-03-27,5,Sepsis,home,Cardiology
+PT00456,57,F,2024-01-01,2024-01-07,6,Sepsis,home,Cardiology
+PT00457,29,M,2024-01-17,2024-01-19,2,Hip Fracture,home,Emergency
+PT00458,70,M,2024-03-06,2024-03-08,2,Pneumonia,home,Emergency
+PT00459,94,F,2024-01-12,2024-01-14,2,Hip Fracture,home,ICU
+PT00460,28,M,2024-02-19,2024-02-26,7,Surgical Procedure,home,Surgery
+PT00461,39,M,2024-02-18,2024-02-19,1,COPD,home,ICU
+PT00462,26,M,2024-01-19,2024-01-27,8,Hip Fracture,home,General Medicine
+PT00463,27,F,2024-03-02,2024-03-05,3,COPD,transferred,Surgery
+PT00464,81,M,2024-03-21,2024-03-25,4,Kidney Disease,home,General Medicine
+PT00465,68,F,2024-01-01,2024-01-07,6,Surgical Procedure,home,Nephrology
+PT00466,74,F,2024-02-12,2024-02-15,3,Hip Fracture,home,Nephrology
+PT00467,94,M,2024-03-24,2024-03-30,6,COPD,home,Surgery
+PT00468,79,F,2024-01-26,2024-01-28,2,Diabetes Complications,transferred,General Medicine
+PT00469,80,M,2024-02-07,2024-02-15,8,Sepsis,home,Nephrology
+PT00470,64,M,2024-02-20,2024-02-22,2,Surgical Procedure,home,Emergency
+PT00471,88,M,2024-01-24,2024-02-01,8,Kidney Disease,transferred,Pulmonology
+PT00472,55,M,2024-02-26,2024-02-28,2,Hip Fracture,home,Pulmonology
+PT00473,56,M,2024-03-22,2024-03-24,2,COPD,home,Surgery
+PT00474,66,M,2024-02-24,2024-02-25,1,Kidney Disease,deceased,ICU
+PT00475,69,F,2024-03-15,2024-03-16,1,Cancer Treatment,home,General Medicine
+PT00476,86,M,2024-03-30,2024-04-02,3,Heart Failure,home,Surgery
+PT00477,63,M,2024-03-26,2024-03-29,3,Surgical Procedure,home,Surgery
+PT00478,69,F,2024-03-27,2024-04-02,6,Hip Fracture,home,Cardiology
+PT00479,46,M,2024-02-03,2024-02-05,2,Kidney Disease,home,ICU
+PT00480,93,M,2024-03-27,2024-03-31,4,Sepsis,deceased,ICU
+PT00481,55,F,2024-01-14,2024-01-17,3,Heart Failure,home,Surgery
+PT00482,62,F,2024-01-19,2024-01-23,4,Sepsis,home,Pulmonology
+PT00483,79,F,2024-03-07,2024-03-08,1,Kidney Disease,home,Surgery
+PT00484,75,F,2024-03-30,2024-04-01,2,Heart Failure,home,Nephrology
+PT00485,32,M,2024-03-31,2024-04-01,1,Sepsis,home,Surgery
+PT00486,49,M,2024-01-22,2024-01-29,7,Cancer Treatment,home,Emergency
+PT00487,77,M,2024-02-24,2024-03-03,8,Hip Fracture,home,Pulmonology
+PT00488,73,F,2024-03-22,2024-03-24,2,Pneumonia,home,Pulmonology
+PT00489,93,F,2024-02-27,2024-02-29,2,Hip Fracture,home,Pulmonology
+PT00490,53,M,2024-01-27,2024-02-01,5,Surgical Procedure,home,Nephrology
+PT00491,41,F,2024-03-09,2024-03-18,9,Sepsis,home,Cardiology
+PT00492,80,F,2024-02-03,2024-02-13,10,Surgical Procedure,home,ICU
+PT00493,32,F,2024-03-16,2024-03-17,1,Sepsis,home,Emergency
+PT00494,56,M,2024-01-23,2024-01-25,2,Diabetes Complications,home,Pulmonology
+PT00495,32,M,2024-02-09,2024-02-13,4,Sepsis,home,Emergency
+PT00496,71,M,2024-02-19,2024-02-23,4,Surgical Procedure,home,Pulmonology
+PT00497,86,M,2024-03-03,2024-03-05,2,Cancer Treatment,home,General Medicine
+PT00498,41,F,2024-01-18,2024-01-19,1,Kidney Disease,home,Nephrology
+PT00499,19,F,2024-02-15,2024-02-18,3,Diabetes Complications,home,ICU
+PT00500,82,F,2024-03-12,2024-03-22,10,Hip Fracture,home,ICU
+PT00501,74,F,2024-03-31,2024-04-02,2,Diabetes Complications,home,Cardiology
+PT00502,55,M,2024-01-29,2024-02-01,3,COPD,home,General Medicine
+PT00503,76,F,2024-01-22,2024-02-06,15,Cancer Treatment,home,Emergency
+PT00504,52,F,2024-01-15,2024-01-17,2,Cancer Treatment,home,Cardiology
+PT00505,87,M,2024-02-26,2024-03-02,5,Hip Fracture,home,Nephrology
+PT00506,49,F,2024-03-24,2024-04-03,10,Pneumonia,home,General Medicine
+PT00507,74,M,2024-01-12,2024-01-17,5,Stroke,home,Surgery
+PT00508,62,F,2024-03-16,2024-03-23,7,Diabetes Complications,home,Nephrology
+PT00509,44,M,2024-01-27,2024-02-01,5,Surgical Procedure,home,General Medicine
+PT00510,86,M,2024-03-17,2024-03-21,4,Sepsis,transferred,General Medicine
+PT00511,91,F,2024-02-07,2024-02-15,8,Cancer Treatment,deceased,Surgery
+PT00512,35,F,2024-01-13,2024-01-18,5,Pneumonia,deceased,Nephrology
+PT00513,34,M,2024-03-24,2024-03-26,2,Stroke,home,General Medicine
+PT00514,68,F,2024-02-01,2024-02-04,3,Diabetes Complications,home,General Medicine
+PT00515,71,F,2024-03-21,2024-03-25,4,Kidney Disease,home,Nephrology
+PT00516,69,F,2024-01-12,2024-01-14,2,Sepsis,home,ICU
+PT00517,92,M,2024-02-11,2024-02-14,3,Heart Failure,home,ICU
+PT00518,63,M,2024-03-22,2024-03-25,3,Cancer Treatment,home,ICU
+PT00519,81,F,2024-01-28,2024-02-02,5,Sepsis,home,General Medicine
+PT00520,91,M,2024-03-11,2024-03-23,12,Surgical Procedure,home,Nephrology
+PT00521,24,M,2024-02-13,2024-02-17,4,Heart Failure,home,Nephrology
+PT00522,20,M,2024-02-28,2024-03-08,9,Diabetes Complications,home,Cardiology
+PT00523,43,M,2024-02-24,2024-02-29,5,COPD,home,General Medicine
+PT00524,64,F,2024-01-12,2024-01-15,3,Heart Failure,home,Surgery
+PT00525,24,F,2024-01-22,2024-01-24,2,COPD,home,Nephrology
+PT00526,72,M,2024-01-30,2024-02-02,3,Heart Failure,home,ICU
+PT00527,34,M,2024-01-10,2024-01-13,3,Cancer Treatment,home,Cardiology
+PT00528,61,M,2024-01-02,2024-01-03,1,Hip Fracture,home,ICU
+PT00529,47,F,2024-01-10,2024-01-12,2,Heart Failure,home,Cardiology
+PT00530,58,F,2024-01-14,2024-01-18,4,COPD,home,Nephrology
+PT00531,36,M,2024-01-18,2024-01-27,9,Cancer Treatment,home,Emergency
+PT00532,39,F,2024-03-24,2024-03-27,3,Sepsis,home,Surgery
+PT00533,70,F,2024-01-20,2024-01-21,1,Stroke,home,Cardiology
+PT00534,33,F,2024-01-18,2024-01-19,1,Sepsis,transferred,General Medicine
+PT00535,49,F,2024-01-18,2024-01-23,5,Heart Failure,home,Emergency
+PT00536,95,F,2024-03-17,2024-03-18,1,Pneumonia,home,Surgery
+PT00537,44,M,2024-02-08,2024-02-14,6,Hip Fracture,home,Cardiology
+PT00538,81,F,2024-01-31,2024-02-05,5,Heart Failure,home,Surgery
+PT00539,27,M,2024-03-17,2024-03-20,3,Sepsis,transferred,Pulmonology
+PT00540,90,F,2024-02-19,2024-02-20,1,Sepsis,home,Pulmonology
+PT00541,27,M,2024-03-01,2024-03-03,2,Surgical Procedure,home,General Medicine
+PT00542,23,M,2024-01-28,2024-02-01,4,Hip Fracture,home,Surgery
+PT00543,71,F,2024-03-05,2024-03-06,1,Hip Fracture,home,Emergency
+PT00544,37,F,2024-03-09,2024-03-17,8,Heart Failure,home,Emergency
+PT00545,37,F,2024-01-27,2024-01-31,4,Hip Fracture,home,Nephrology
+PT00546,26,F,2024-03-24,2024-03-28,4,Hip Fracture,home,Nephrology
+PT00547,25,M,2024-01-31,2024-02-05,5,Heart Failure,transferred,Cardiology
+PT00548,95,M,2024-02-28,2024-03-07,8,COPD,home,Surgery
+PT00549,33,M,2024-01-23,2024-01-26,3,Diabetes Complications,home,Pulmonology
+PT00550,62,F,2024-03-04,2024-03-09,5,Diabetes Complications,home,Surgery
+PT00551,33,M,2024-02-04,2024-02-05,1,Sepsis,home,General Medicine
+PT00552,26,F,2024-03-08,2024-03-18,10,Surgical Procedure,home,ICU
+PT00553,83,F,2024-02-28,2024-03-02,3,Pneumonia,home,Emergency
+PT00554,65,M,2024-01-22,2024-01-23,1,COPD,home,Emergency
+PT00555,32,M,2024-03-27,2024-03-29,2,Cancer Treatment,home,Nephrology
+PT00556,49,M,2024-01-02,2024-01-03,1,Kidney Disease,home,Pulmonology
+PT00557,22,F,2024-01-23,2024-01-25,2,Stroke,home,ICU
+PT00558,52,M,2024-02-10,2024-02-11,1,Surgical Procedure,home,Emergency
+PT00559,24,M,2024-03-27,2024-04-01,5,Stroke,home,Cardiology
+PT00560,26,F,2024-02-21,2024-02-25,4,COPD,home,General Medicine
+PT00561,29,F,2024-02-11,2024-02-12,1,Pneumonia,home,General Medicine
+PT00562,56,M,2024-03-13,2024-03-16,3,Kidney Disease,home,ICU
+PT00563,87,M,2024-01-26,2024-01-29,3,Diabetes Complications,home,ICU
+PT00564,47,F,2024-01-04,2024-01-05,1,Pneumonia,transferred,Cardiology
+PT00565,66,F,2024-03-25,2024-03-27,2,Heart Failure,home,Pulmonology
+PT00566,80,M,2024-02-23,2024-02-26,3,Diabetes Complications,home,Cardiology
+PT00567,47,F,2024-01-06,2024-01-08,2,Sepsis,home,Surgery
+PT00568,92,M,2024-01-11,2024-01-12,1,Cancer Treatment,home,Nephrology
+PT00569,27,M,2024-02-20,2024-02-21,1,Hip Fracture,home,Pulmonology
+PT00570,55,F,2024-01-31,2024-02-02,2,Sepsis,transferred,ICU
+PT00571,59,F,2024-03-30,2024-04-01,2,Kidney Disease,home,Cardiology
+PT00572,35,M,2024-01-26,2024-01-31,5,Diabetes Complications,home,ICU
+PT00573,58,F,2024-02-29,2024-03-08,8,Heart Failure,home,Nephrology
+PT00574,75,F,2024-01-27,2024-02-02,6,Kidney Disease,home,Cardiology
+PT00575,38,F,2024-01-12,2024-01-15,3,Surgical Procedure,home,Nephrology
+PT00576,36,M,2024-02-11,2024-02-12,1,Stroke,transferred,ICU
+PT00577,24,F,2024-03-06,2024-03-12,6,COPD,home,Pulmonology
+PT00578,69,F,2024-01-04,2024-01-09,5,Cancer Treatment,home,Pulmonology
+PT00579,77,M,2024-01-13,2024-01-21,8,Diabetes Complications,home,Cardiology
+PT00580,34,M,2024-01-29,2024-02-01,3,Hip Fracture,home,Surgery
+PT00581,28,F,2024-03-23,2024-04-02,10,Heart Failure,home,Cardiology
+PT00582,74,M,2024-01-26,2024-01-29,3,Heart Failure,home,Nephrology
+PT00583,33,M,2024-02-12,2024-02-13,1,Kidney Disease,home,Emergency
+PT00584,68,F,2024-02-25,2024-02-27,2,Pneumonia,home,ICU
+PT00585,63,M,2024-01-23,2024-01-27,4,Diabetes Complications,home,ICU
+PT00586,22,M,2024-01-20,2024-01-22,2,COPD,home,Emergency
+PT00587,25,M,2024-03-02,2024-03-12,10,COPD,home,ICU
+PT00588,85,M,2024-01-26,2024-01-30,4,Cancer Treatment,home,ICU
+PT00589,79,F,2024-02-15,2024-02-18,3,Sepsis,home,Emergency
+PT00590,67,F,2024-02-11,2024-02-14,3,Diabetes Complications,home,Emergency
+PT00591,21,F,2024-01-29,2024-01-31,2,Pneumonia,home,ICU
+PT00592,63,M,2024-03-08,2024-03-09,1,Diabetes Complications,home,Surgery
+PT00593,52,M,2024-01-31,2024-02-02,2,Stroke,home,Nephrology
+PT00594,63,M,2024-02-19,2024-02-28,9,Diabetes Complications,home,General Medicine
+PT00595,63,M,2024-03-30,2024-04-02,3,Sepsis,transferred,Emergency
+PT00596,90,M,2024-01-19,2024-01-25,6,Kidney Disease,home,Pulmonology
+PT00597,22,M,2024-03-03,2024-03-09,6,Pneumonia,home,Pulmonology
+PT00598,85,F,2024-01-03,2024-01-06,3,Pneumonia,home,Emergency
+PT00599,34,F,2024-01-26,2024-01-31,5,Diabetes Complications,home,Nephrology
+PT00600,25,M,2024-02-11,2024-02-12,1,Diabetes Complications,home,Pulmonology
+PT00601,85,F,2024-01-15,2024-01-23,8,Heart Failure,home,Surgery
+PT00602,93,M,2024-02-20,2024-02-28,8,Sepsis,home,Pulmonology
+PT00603,73,F,2024-01-21,2024-01-25,4,Sepsis,home,Emergency
+PT00604,63,M,2024-03-29,2024-04-02,4,Surgical Procedure,home,ICU
+PT00605,55,M,2024-02-09,2024-02-12,3,Diabetes Complications,home,Surgery
+PT00606,68,M,2024-03-14,2024-03-21,7,Diabetes Complications,home,Nephrology
+PT00607,46,M,2024-03-19,2024-03-24,5,Kidney Disease,home,Surgery
+PT00608,48,F,2024-01-10,2024-01-12,2,Sepsis,home,Cardiology
+PT00609,60,F,2024-03-31,2024-04-01,1,Pneumonia,home,Pulmonology
+PT00610,26,F,2024-03-29,2024-03-30,1,COPD,home,Surgery
+PT00611,24,F,2024-01-01,2024-01-08,7,Kidney Disease,home,Pulmonology
+PT00612,81,F,2024-02-22,2024-02-25,3,Sepsis,home,Cardiology
+PT00613,91,M,2024-03-02,2024-03-06,4,Diabetes Complications,home,Nephrology
+PT00614,55,M,2024-01-05,2024-01-08,3,Sepsis,home,Cardiology
+PT00615,61,M,2024-01-10,2024-01-11,1,Hip Fracture,home,Cardiology
+PT00616,29,F,2024-03-11,2024-03-12,1,Surgical Procedure,deceased,ICU
+PT00617,21,F,2024-03-31,2024-04-02,2,Diabetes Complications,home,ICU
+PT00618,24,M,2024-01-21,2024-01-23,2,Sepsis,home,Pulmonology
+PT00619,88,F,2024-02-22,2024-02-24,2,COPD,home,Cardiology
+PT00620,68,F,2024-01-07,2024-01-09,2,Diabetes Complications,home,Cardiology
+PT00621,29,F,2024-02-24,2024-03-07,12,Surgical Procedure,home,Cardiology
+PT00622,44,M,2024-01-04,2024-01-10,6,COPD,transferred,ICU
+PT00623,57,F,2024-01-15,2024-01-18,3,Kidney Disease,home,Surgery
+PT00624,29,F,2024-02-03,2024-02-06,3,Diabetes Complications,home,ICU
+PT00625,41,F,2024-02-17,2024-02-20,3,Pneumonia,home,ICU
+PT00626,46,F,2024-02-03,2024-02-08,5,Surgical Procedure,home,Nephrology
+PT00627,30,M,2024-03-30,2024-04-02,3,Sepsis,home,ICU
+PT00628,47,M,2024-03-16,2024-03-22,6,Hip Fracture,home,ICU
+PT00629,78,M,2024-03-09,2024-03-13,4,Kidney Disease,home,ICU
+PT00630,82,M,2024-01-05,2024-01-17,12,Heart Failure,transferred,ICU
+PT00631,39,M,2024-01-23,2024-01-25,2,Stroke,home,ICU
+PT00632,73,M,2024-01-11,2024-01-18,7,Diabetes Complications,home,General Medicine
+PT00633,26,M,2024-02-10,2024-02-11,1,Hip Fracture,home,Emergency
+PT00634,53,F,2024-02-11,2024-02-12,1,Pneumonia,home,Emergency
+PT00635,84,F,2024-03-16,2024-03-27,11,Heart Failure,home,Pulmonology
+PT00636,93,M,2024-03-13,2024-03-19,6,Heart Failure,home,Cardiology
+PT00637,86,F,2024-02-06,2024-02-10,4,Hip Fracture,home,Surgery
+PT00638,91,F,2024-03-03,2024-03-17,14,Pneumonia,home,ICU
+PT00639,95,F,2024-01-19,2024-01-22,3,Pneumonia,home,General Medicine
+PT00640,48,M,2024-03-29,2024-04-05,7,Kidney Disease,transferred,General Medicine
+PT00641,61,F,2024-01-03,2024-01-10,7,COPD,home,ICU
+PT00642,30,M,2024-03-30,2024-04-08,9,Diabetes Complications,home,Surgery
+PT00643,59,F,2024-02-26,2024-02-27,1,Hip Fracture,home,Cardiology
+PT00644,74,M,2024-01-25,2024-01-28,3,Hip Fracture,home,Nephrology
+PT00645,65,M,2024-03-07,2024-03-11,4,Cancer Treatment,home,Cardiology
+PT00646,82,F,2024-02-09,2024-02-18,9,Diabetes Complications,home,Emergency
+PT00647,21,M,2024-03-13,2024-03-17,4,Stroke,home,Pulmonology
+PT00648,49,M,2024-01-08,2024-01-15,7,Kidney Disease,home,General Medicine
+PT00649,43,F,2024-03-31,2024-04-01,1,Sepsis,home,Emergency
+PT00650,33,M,2024-02-20,2024-02-22,2,Stroke,home,Emergency
+PT00651,40,F,2024-02-27,2024-03-06,8,Surgical Procedure,home,General Medicine
+PT00652,51,M,2024-01-21,2024-01-23,2,COPD,home,Cardiology
+PT00653,91,M,2024-01-21,2024-01-24,3,Stroke,home,Surgery
+PT00654,52,F,2024-01-27,2024-02-05,9,Cancer Treatment,home,Nephrology
+PT00655,19,F,2024-03-28,2024-03-29,1,Diabetes Complications,home,Emergency
+PT00656,46,F,2024-01-02,2024-01-03,1,Surgical Procedure,home,General Medicine
+PT00657,53,F,2024-03-31,2024-04-01,1,Hip Fracture,home,ICU
+PT00658,45,F,2024-02-02,2024-02-11,9,COPD,home,Nephrology
+PT00659,68,M,2024-03-20,2024-03-26,6,Pneumonia,home,Surgery
+PT00660,89,F,2024-02-17,2024-02-23,6,COPD,home,ICU
+PT00661,61,F,2024-01-09,2024-01-11,2,Sepsis,home,General Medicine
+PT00662,56,M,2024-03-24,2024-03-25,1,Diabetes Complications,home,Pulmonology
+PT00663,94,F,2024-01-08,2024-01-09,1,Sepsis,home,Surgery
+PT00664,81,F,2024-01-04,2024-01-12,8,COPD,home,ICU
+PT00665,22,M,2024-02-19,2024-02-24,5,Sepsis,home,Pulmonology
+PT00666,86,F,2024-03-28,2024-04-02,5,Sepsis,home,Nephrology
+PT00667,89,M,2024-01-22,2024-01-26,4,COPD,home,Pulmonology
+PT00668,89,M,2024-02-03,2024-02-04,1,Sepsis,home,Pulmonology
+PT00669,46,F,2024-02-15,2024-02-17,2,Hip Fracture,home,General Medicine
+PT00670,51,F,2024-02-17,2024-02-18,1,Kidney Disease,home,ICU
+PT00671,92,M,2024-01-07,2024-01-08,1,Kidney Disease,home,Emergency
+PT00672,66,F,2024-01-16,2024-01-22,6,Hip Fracture,home,Nephrology
+PT00673,35,M,2024-01-20,2024-01-21,1,Sepsis,home,Emergency
+PT00674,36,F,2024-02-28,2024-02-29,1,Diabetes Complications,home,ICU
+PT00675,40,F,2024-02-12,2024-02-14,2,Pneumonia,home,General Medicine
+PT00676,39,M,2024-01-27,2024-01-30,3,Kidney Disease,home,Nephrology
+PT00677,34,F,2024-01-12,2024-01-13,1,Hip Fracture,home,ICU
+PT00678,18,M,2024-02-19,2024-02-23,4,Cancer Treatment,home,General Medicine
+PT00679,59,M,2024-01-02,2024-01-05,3,Pneumonia,home,Surgery
+PT00680,46,F,2024-02-01,2024-02-09,8,COPD,home,ICU
+PT00681,93,F,2024-03-05,2024-03-08,3,Diabetes Complications,home,Cardiology
+PT00682,55,F,2024-02-08,2024-02-12,4,Cancer Treatment,home,General Medicine
+PT00683,35,F,2024-02-25,2024-02-26,1,Kidney Disease,home,Pulmonology
+PT00684,69,M,2024-01-22,2024-01-23,1,Stroke,home,Pulmonology
+PT00685,20,M,2024-01-28,2024-01-29,1,Heart Failure,home,Surgery
+PT00686,66,F,2024-01-05,2024-01-06,1,Cancer Treatment,home,Emergency
+PT00687,31,M,2024-01-07,2024-01-09,2,Pneumonia,home,ICU
+PT00688,66,M,2024-02-26,2024-03-04,7,Cancer Treatment,home,Surgery
+PT00689,44,M,2024-01-20,2024-01-21,1,COPD,home,Cardiology
+PT00690,84,F,2024-03-25,2024-04-06,12,Surgical Procedure,home,Pulmonology
+PT00691,31,M,2024-02-23,2024-02-28,5,COPD,home,Cardiology
+PT00692,43,M,2024-03-04,2024-03-08,4,COPD,home,Pulmonology
+PT00693,70,F,2024-02-15,2024-02-18,3,Diabetes Complications,home,ICU
+PT00694,79,F,2024-01-27,2024-01-29,2,Stroke,home,Surgery
+PT00695,32,F,2024-01-12,2024-01-14,2,Diabetes Complications,transferred,Nephrology
+PT00696,27,M,2024-03-06,2024-03-07,1,COPD,home,ICU
+PT00697,51,F,2024-02-07,2024-02-08,1,Pneumonia,home,Pulmonology
+PT00698,55,F,2024-01-06,2024-01-15,9,Sepsis,home,Cardiology
+PT00699,23,M,2024-01-13,2024-01-18,5,Diabetes Complications,home,Pulmonology
+PT00700,63,F,2024-02-12,2024-02-21,9,Surgical Procedure,home,Surgery
+PT00701,65,F,2024-01-12,2024-01-14,2,Diabetes Complications,home,ICU
+PT00702,52,F,2024-02-28,2024-02-29,1,Kidney Disease,home,Surgery
+PT00703,32,M,2024-01-22,2024-01-25,3,Pneumonia,deceased,Nephrology
+PT00704,31,F,2024-01-21,2024-01-22,1,Surgical Procedure,home,Emergency
+PT00705,74,M,2024-03-27,2024-03-30,3,Surgical Procedure,home,General Medicine
+PT00706,21,M,2024-03-19,2024-03-20,1,Kidney Disease,transferred,Cardiology
+PT00707,74,M,2024-02-22,2024-02-23,1,Heart Failure,home,General Medicine
+PT00708,85,M,2024-01-02,2024-01-06,4,Sepsis,home,Surgery
+PT00709,30,F,2024-03-30,2024-04-08,9,Stroke,home,Surgery
+PT00710,67,M,2024-03-27,2024-03-31,4,Cancer Treatment,home,Emergency
+PT00711,19,M,2024-01-07,2024-01-11,4,Cancer Treatment,home,Nephrology
+PT00712,39,M,2024-03-04,2024-03-07,3,Kidney Disease,home,General Medicine
+PT00713,24,M,2024-02-05,2024-02-08,3,Cancer Treatment,home,ICU
+PT00714,28,F,2024-01-31,2024-02-01,1,Kidney Disease,home,ICU
+PT00715,81,F,2024-01-12,2024-01-13,1,Sepsis,home,ICU
+PT00716,20,M,2024-03-24,2024-03-31,7,Hip Fracture,home,Emergency
+PT00717,18,M,2024-03-11,2024-03-13,2,Surgical Procedure,transferred,Surgery
+PT00718,83,M,2024-02-08,2024-02-15,7,Kidney Disease,transferred,General Medicine
+PT00719,46,F,2024-01-07,2024-01-10,3,Sepsis,home,Emergency
+PT00720,78,F,2024-03-17,2024-03-20,3,Kidney Disease,home,Nephrology
+PT00721,46,M,2024-03-25,2024-03-27,2,Sepsis,home,Surgery
+PT00722,88,F,2024-02-07,2024-02-12,5,Heart Failure,home,Pulmonology
+PT00723,35,F,2024-03-04,2024-03-10,6,Heart Failure,home,Pulmonology
+PT00724,33,F,2024-01-25,2024-01-26,1,Stroke,home,Nephrology
+PT00725,61,M,2024-01-25,2024-01-26,1,Hip Fracture,home,Surgery
+PT00726,93,M,2024-03-27,2024-03-28,1,Kidney Disease,home,Emergency
+PT00727,35,F,2024-03-05,2024-03-09,4,Pneumonia,home,Cardiology
+PT00728,73,F,2024-03-11,2024-03-15,4,Cancer Treatment,home,Pulmonology
+PT00729,92,M,2024-03-29,2024-04-12,14,Diabetes Complications,home,Surgery
+PT00730,95,F,2024-03-17,2024-03-20,3,Cancer Treatment,home,ICU
+PT00731,49,F,2024-03-18,2024-03-21,3,Hip Fracture,transferred,General Medicine
+PT00732,35,M,2024-02-27,2024-03-02,4,Hip Fracture,home,Surgery
+PT00733,56,F,2024-03-06,2024-03-10,4,Cancer Treatment,home,Pulmonology
+PT00734,55,F,2024-01-27,2024-01-29,2,Diabetes Complications,deceased,Surgery
+PT00735,82,F,2024-01-23,2024-01-24,1,Heart Failure,home,Emergency
+PT00736,92,F,2024-03-02,2024-03-05,3,Cancer Treatment,home,Nephrology
+PT00737,19,M,2024-02-24,2024-02-27,3,Pneumonia,home,Cardiology
+PT00738,25,M,2024-03-26,2024-03-29,3,COPD,home,Pulmonology
+PT00739,50,M,2024-02-06,2024-02-11,5,Pneumonia,home,General Medicine
+PT00740,87,M,2024-01-27,2024-01-30,3,Sepsis,home,Cardiology
+PT00741,89,M,2024-03-19,2024-03-20,1,Cancer Treatment,home,Emergency
+PT00742,54,M,2024-03-30,2024-03-31,1,Hip Fracture,home,Nephrology
+PT00743,58,M,2024-03-28,2024-03-30,2,Pneumonia,home,Pulmonology
+PT00744,74,M,2024-03-20,2024-03-23,3,Sepsis,home,Emergency
+PT00745,43,M,2024-03-18,2024-03-22,4,COPD,home,Surgery
+PT00746,41,M,2024-01-10,2024-01-13,3,Cancer Treatment,home,Cardiology
+PT00747,53,F,2024-02-24,2024-02-25,1,Diabetes Complications,home,Nephrology
+PT00748,18,F,2024-02-02,2024-02-03,1,Kidney Disease,home,Pulmonology
+PT00749,37,F,2024-01-06,2024-01-11,5,Surgical Procedure,home,Surgery
+PT00750,56,F,2024-03-19,2024-03-21,2,Surgical Procedure,home,Cardiology
+PT00751,58,M,2024-03-31,2024-04-03,3,Diabetes Complications,home,Nephrology
+PT00752,38,F,2024-03-05,2024-03-07,2,Cancer Treatment,home,Cardiology
+PT00753,46,M,2024-02-14,2024-02-15,1,Sepsis,home,General Medicine
+PT00754,85,F,2024-01-28,2024-01-30,2,Cancer Treatment,home,Surgery
+PT00755,32,F,2024-01-02,2024-01-05,3,Kidney Disease,home,Surgery
+PT00756,49,M,2024-03-19,2024-03-22,3,Sepsis,home,Nephrology
+PT00757,67,F,2024-01-15,2024-01-21,6,Cancer Treatment,home,Cardiology
+PT00758,65,F,2024-03-07,2024-03-08,1,Kidney Disease,home,Surgery
+PT00759,59,M,2024-01-25,2024-01-26,1,Heart Failure,home,Nephrology
+PT00760,86,M,2024-03-09,2024-03-11,2,Heart Failure,home,Surgery
+PT00761,72,M,2024-01-28,2024-02-01,4,Stroke,home,Surgery
+PT00762,27,M,2024-02-25,2024-03-01,5,Pneumonia,home,General Medicine
+PT00763,29,M,2024-01-05,2024-01-07,2,Pneumonia,home,General Medicine
+PT00764,27,M,2024-03-12,2024-03-13,1,COPD,home,ICU
+PT00765,69,F,2024-03-21,2024-03-23,2,Sepsis,home,Surgery
+PT00766,86,M,2024-01-16,2024-01-20,4,Surgical Procedure,home,Surgery
+PT00767,23,M,2024-03-15,2024-03-18,3,Sepsis,transferred,Cardiology
+PT00768,56,M,2024-02-07,2024-02-12,5,COPD,home,ICU
+PT00769,68,M,2024-02-18,2024-02-25,7,Kidney Disease,home,Pulmonology
+PT00770,68,F,2024-01-18,2024-01-20,2,Diabetes Complications,home,Nephrology
+PT00771,65,M,2024-03-23,2024-03-25,2,Cancer Treatment,home,Pulmonology
+PT00772,23,M,2024-01-16,2024-01-17,1,Surgical Procedure,home,Emergency
+PT00773,28,F,2024-03-11,2024-03-12,1,Stroke,home,Surgery
+PT00774,45,F,2024-02-14,2024-02-15,1,Cancer Treatment,home,Pulmonology
+PT00775,50,M,2024-01-29,2024-01-30,1,Heart Failure,home,Nephrology
+PT00776,24,F,2024-03-13,2024-03-19,6,Cancer Treatment,home,Surgery
+PT00777,50,M,2024-01-09,2024-01-14,5,Stroke,home,ICU
+PT00778,63,M,2024-02-12,2024-02-14,2,Stroke,home,Emergency
+PT00779,42,F,2024-01-09,2024-01-21,12,Kidney Disease,home,Emergency
+PT00780,57,M,2024-03-25,2024-03-27,2,Surgical Procedure,home,Nephrology
+PT00781,72,M,2024-02-10,2024-02-17,7,Pneumonia,home,Nephrology
+PT00782,73,F,2024-01-29,2024-02-07,9,Sepsis,home,Surgery
+PT00783,79,F,2024-02-12,2024-02-16,4,Kidney Disease,home,General Medicine
+PT00784,88,M,2024-03-03,2024-03-04,1,Diabetes Complications,home,Cardiology
+PT00785,35,M,2024-02-05,2024-02-07,2,COPD,home,Surgery
+PT00786,27,M,2024-01-10,2024-01-13,3,Cancer Treatment,home,Nephrology
+PT00787,92,F,2024-03-15,2024-03-16,1,Surgical Procedure,home,Cardiology
+PT00788,51,F,2024-03-11,2024-03-12,1,Diabetes Complications,home,Pulmonology
+PT00789,55,M,2024-03-16,2024-03-17,1,Kidney Disease,home,Cardiology
+PT00790,64,M,2024-02-20,2024-02-24,4,Stroke,home,Nephrology
+PT00791,39,M,2024-03-19,2024-03-26,7,Kidney Disease,home,Emergency
+PT00792,36,F,2024-03-13,2024-03-18,5,Sepsis,home,Nephrology
+PT00793,47,M,2024-03-03,2024-03-09,6,COPD,home,Cardiology
+PT00794,44,F,2024-03-26,2024-03-27,1,Hip Fracture,home,ICU
+PT00795,23,F,2024-01-06,2024-01-08,2,Heart Failure,home,Emergency
+PT00796,53,F,2024-03-22,2024-03-24,2,Surgical Procedure,home,Pulmonology
+PT00797,66,F,2024-02-18,2024-02-22,4,Surgical Procedure,home,Nephrology
+PT00798,84,F,2024-01-10,2024-01-11,1,Hip Fracture,transferred,Pulmonology
+PT00799,69,F,2024-03-07,2024-03-13,6,Sepsis,home,ICU
+PT00800,18,M,2024-03-18,2024-03-27,9,Kidney Disease,home,Cardiology
+PT00801,53,M,2024-03-06,2024-03-10,4,Diabetes Complications,home,General Medicine
+PT00802,33,M,2024-03-18,2024-03-20,2,Hip Fracture,home,Surgery
+PT00803,79,F,2024-01-15,2024-01-16,1,Kidney Disease,home,Pulmonology
+PT00804,70,M,2024-03-23,2024-03-24,1,Stroke,home,Emergency
+PT00805,38,M,2024-03-16,2024-03-17,1,Cancer Treatment,home,Emergency
+PT00806,25,M,2024-01-19,2024-01-21,2,COPD,transferred,Emergency
+PT00807,94,M,2024-02-21,2024-02-23,2,COPD,transferred,Pulmonology
+PT00808,95,F,2024-02-27,2024-03-04,6,Kidney Disease,home,Nephrology
+PT00809,94,M,2024-02-22,2024-02-24,2,Surgical Procedure,home,Pulmonology
+PT00810,83,F,2024-03-20,2024-03-22,2,Diabetes Complications,home,General Medicine
+PT00811,94,M,2024-02-28,2024-03-03,4,Stroke,home,Pulmonology
+PT00812,20,M,2024-01-14,2024-01-18,4,Cancer Treatment,home,Emergency
+PT00813,71,M,2024-03-28,2024-04-02,5,Surgical Procedure,home,ICU
+PT00814,94,M,2024-03-19,2024-03-22,3,Cancer Treatment,home,Cardiology
+PT00815,79,M,2024-01-12,2024-01-13,1,Surgical Procedure,home,Cardiology
+PT00816,73,F,2024-03-27,2024-03-31,4,Sepsis,home,Surgery
+PT00817,72,M,2024-03-08,2024-03-09,1,Kidney Disease,home,ICU
+PT00818,93,M,2024-02-14,2024-02-21,7,Hip Fracture,home,ICU
+PT00819,28,F,2024-01-30,2024-02-02,3,Surgical Procedure,home,ICU
+PT00820,42,M,2024-02-02,2024-02-05,3,Pneumonia,home,Cardiology
+PT00821,18,F,2024-03-07,2024-03-22,15,Stroke,home,General Medicine
+PT00822,64,M,2024-02-22,2024-02-27,5,Diabetes Complications,home,Emergency
+PT00823,51,F,2024-02-02,2024-02-06,4,Surgical Procedure,home,General Medicine
+PT00824,68,M,2024-03-28,2024-03-30,2,Hip Fracture,home,Emergency
+PT00825,40,F,2024-03-02,2024-03-03,1,Cancer Treatment,home,General Medicine
+PT00826,91,F,2024-02-09,2024-02-11,2,Hip Fracture,home,Nephrology
+PT00827,33,M,2024-03-25,2024-03-26,1,Kidney Disease,home,Pulmonology
+PT00828,45,F,2024-01-13,2024-01-22,9,Sepsis,home,Emergency
+PT00829,24,M,2024-03-30,2024-04-03,4,Hip Fracture,transferred,Cardiology
+PT00830,36,F,2024-01-12,2024-01-19,7,Surgical Procedure,home,Cardiology
+PT00831,46,F,2024-02-03,2024-02-04,1,Heart Failure,home,Surgery
+PT00832,69,F,2024-02-19,2024-02-20,1,Surgical Procedure,home,Nephrology
+PT00833,81,F,2024-01-23,2024-01-28,5,Pneumonia,home,Surgery
+PT00834,54,M,2024-03-07,2024-03-08,1,Pneumonia,home,Emergency
+PT00835,47,M,2024-03-07,2024-03-09,2,Pneumonia,home,Surgery
+PT00836,38,M,2024-01-01,2024-01-11,10,COPD,home,General Medicine
+PT00837,68,F,2024-03-26,2024-03-28,2,Surgical Procedure,home,Cardiology
+PT00838,26,M,2024-03-31,2024-04-01,1,Cancer Treatment,home,Nephrology
+PT00839,92,F,2024-03-12,2024-03-13,1,Sepsis,transferred,General Medicine
+PT00840,95,M,2024-01-29,2024-01-30,1,Kidney Disease,transferred,Emergency
+PT00841,51,M,2024-01-01,2024-01-08,7,Hip Fracture,home,Emergency
+PT00842,82,F,2024-01-10,2024-01-12,2,Sepsis,transferred,Nephrology
+PT00843,50,F,2024-03-06,2024-03-21,15,Kidney Disease,transferred,Emergency
+PT00844,49,F,2024-03-02,2024-03-11,9,Kidney Disease,home,Emergency
+PT00845,79,M,2024-01-04,2024-01-15,11,COPD,home,Surgery
+PT00846,47,F,2024-01-29,2024-02-04,6,Hip Fracture,transferred,Emergency
+PT00847,19,F,2024-03-09,2024-03-14,5,Stroke,home,ICU
+PT00848,61,M,2024-03-27,2024-03-28,1,Cancer Treatment,transferred,ICU
+PT00849,63,M,2024-02-10,2024-02-13,3,Surgical Procedure,home,Surgery
+PT00850,42,F,2024-03-28,2024-04-02,5,Stroke,home,Pulmonology
+PT00851,44,M,2024-02-03,2024-02-09,6,Stroke,home,Nephrology
+PT00852,63,M,2024-03-20,2024-03-21,1,Heart Failure,home,Cardiology
+PT00853,81,M,2024-03-27,2024-03-29,2,Cancer Treatment,transferred,Nephrology
+PT00854,65,F,2024-03-02,2024-03-05,3,Kidney Disease,home,Emergency
+PT00855,80,M,2024-02-05,2024-02-08,3,Cancer Treatment,home,Pulmonology
+PT00856,34,M,2024-03-14,2024-03-15,1,Cancer Treatment,home,ICU
+PT00857,22,F,2024-03-10,2024-03-20,10,Hip Fracture,home,Nephrology
+PT00858,76,M,2024-01-23,2024-01-25,2,Cancer Treatment,home,Surgery
+PT00859,19,M,2024-01-02,2024-01-03,1,Hip Fracture,home,General Medicine
+PT00860,51,M,2024-02-16,2024-02-26,10,Cancer Treatment,home,General Medicine
+PT00861,61,F,2024-03-01,2024-03-10,9,Diabetes Complications,home,Pulmonology
+PT00862,65,F,2024-02-23,2024-02-26,3,Hip Fracture,home,Pulmonology
+PT00863,34,M,2024-03-14,2024-03-16,2,Heart Failure,home,Nephrology
+PT00864,89,F,2024-01-31,2024-02-01,1,Hip Fracture,home,Nephrology
+PT00865,78,M,2024-01-20,2024-01-24,4,Diabetes Complications,home,Pulmonology
+PT00866,84,F,2024-03-21,2024-03-23,2,Kidney Disease,home,Emergency
+PT00867,24,F,2024-03-13,2024-03-16,3,Heart Failure,home,Cardiology
+PT00868,50,F,2024-01-28,2024-02-07,10,Heart Failure,home,General Medicine
+PT00869,64,F,2024-02-03,2024-02-05,2,Cancer Treatment,home,Nephrology
+PT00870,62,M,2024-02-02,2024-02-06,4,Hip Fracture,home,Nephrology
+PT00871,95,M,2024-03-27,2024-04-01,5,Surgical Procedure,home,Surgery
+PT00872,40,F,2024-03-09,2024-03-16,7,Sepsis,home,Emergency
+PT00873,75,M,2024-03-03,2024-03-06,3,Hip Fracture,home,ICU
+PT00874,36,M,2024-03-21,2024-03-23,2,Sepsis,home,Emergency
+PT00875,69,M,2024-03-14,2024-03-16,2,Heart Failure,home,Pulmonology
+PT00876,58,F,2024-02-10,2024-02-14,4,COPD,home,ICU
+PT00877,74,F,2024-02-04,2024-02-12,8,Surgical Procedure,home,ICU
+PT00878,39,M,2024-02-22,2024-02-24,2,Pneumonia,home,Pulmonology
+PT00879,50,M,2024-03-25,2024-03-26,1,Stroke,home,Cardiology
+PT00880,26,F,2024-01-13,2024-01-19,6,Cancer Treatment,home,Nephrology
+PT00881,85,M,2024-02-20,2024-02-23,3,Heart Failure,home,Pulmonology
+PT00882,67,F,2024-01-11,2024-01-15,4,Stroke,home,General Medicine
+PT00883,34,M,2024-02-26,2024-02-27,1,Cancer Treatment,home,Cardiology
+PT00884,63,F,2024-01-05,2024-01-07,2,Kidney Disease,home,Nephrology
+PT00885,52,F,2024-03-10,2024-03-15,5,Diabetes Complications,transferred,Surgery
+PT00886,40,F,2024-03-10,2024-03-11,1,Surgical Procedure,home,Surgery
+PT00887,86,F,2024-03-22,2024-03-26,4,Sepsis,home,Pulmonology
+PT00888,74,F,2024-01-12,2024-01-15,3,Sepsis,home,Pulmonology
+PT00889,19,M,2024-02-08,2024-02-09,1,Cancer Treatment,home,Nephrology
+PT00890,62,F,2024-01-18,2024-01-19,1,Kidney Disease,home,Surgery
+PT00891,79,F,2024-03-03,2024-03-04,1,Pneumonia,home,Nephrology
+PT00892,94,M,2024-02-07,2024-02-10,3,Pneumonia,home,Pulmonology
+PT00893,89,F,2024-02-22,2024-02-25,3,Hip Fracture,home,Surgery
+PT00894,67,F,2024-03-23,2024-03-25,2,Stroke,home,ICU
+PT00895,48,F,2024-03-21,2024-03-22,1,COPD,home,Emergency
+PT00896,70,M,2024-02-04,2024-02-08,4,Heart Failure,home,General Medicine
+PT00897,76,F,2024-01-15,2024-01-21,6,COPD,home,ICU
+PT00898,59,M,2024-01-25,2024-01-30,5,Diabetes Complications,home,Emergency
+PT00899,41,M,2024-01-03,2024-01-14,11,COPD,home,Surgery
+PT00900,19,M,2024-02-26,2024-02-28,2,Heart Failure,home,ICU
+PT00901,61,F,2024-01-28,2024-02-05,8,COPD,home,ICU
+PT00902,77,M,2024-02-17,2024-02-18,1,Sepsis,home,Nephrology
+PT00903,25,F,2024-01-19,2024-01-20,1,Hip Fracture,home,ICU
+PT00904,42,F,2024-01-24,2024-01-27,3,Hip Fracture,home,Cardiology
+PT00905,67,F,2024-02-01,2024-02-10,9,Stroke,home,Cardiology
+PT00906,76,M,2024-01-26,2024-01-28,2,Cancer Treatment,home,Pulmonology
+PT00907,67,F,2024-03-01,2024-03-02,1,Sepsis,home,Surgery
+PT00908,88,M,2024-01-06,2024-01-12,6,COPD,home,General Medicine
+PT00909,64,M,2024-01-26,2024-01-29,3,Stroke,transferred,Pulmonology
+PT00910,73,F,2024-03-22,2024-03-26,4,Pneumonia,home,General Medicine
+PT00911,33,F,2024-03-15,2024-03-16,1,Stroke,home,Cardiology
+PT00912,78,M,2024-03-15,2024-03-18,3,Sepsis,home,Pulmonology
+PT00913,81,M,2024-01-21,2024-01-22,1,Surgical Procedure,home,Nephrology
+PT00914,25,M,2024-03-21,2024-03-31,10,Sepsis,home,Surgery
+PT00915,31,M,2024-03-09,2024-03-15,6,Kidney Disease,home,Emergency
+PT00916,62,F,2024-03-23,2024-03-26,3,Stroke,home,ICU
+PT00917,35,F,2024-02-15,2024-02-21,6,Pneumonia,home,ICU
+PT00918,55,F,2024-03-12,2024-03-13,1,Stroke,home,Emergency
+PT00919,59,F,2024-02-14,2024-02-20,6,COPD,home,Emergency
+PT00920,38,M,2024-03-11,2024-03-13,2,Cancer Treatment,home,General Medicine
+PT00921,87,F,2024-02-03,2024-02-05,2,Kidney Disease,home,Surgery
+PT00922,66,M,2024-03-05,2024-03-06,1,Pneumonia,home,General Medicine
+PT00923,48,F,2024-03-20,2024-03-24,4,Heart Failure,home,Emergency
+PT00924,42,F,2024-02-19,2024-02-22,3,Cancer Treatment,home,General Medicine
+PT00925,70,F,2024-02-11,2024-02-19,8,Heart Failure,home,Surgery
+PT00926,23,M,2024-01-09,2024-01-10,1,Diabetes Complications,home,Pulmonology
+PT00927,80,M,2024-01-14,2024-01-18,4,Heart Failure,home,Surgery
+PT00928,80,F,2024-02-19,2024-02-26,7,Pneumonia,home,Emergency
+PT00929,19,M,2024-01-10,2024-01-13,3,Kidney Disease,transferred,Nephrology
+PT00930,77,M,2024-01-11,2024-01-13,2,Sepsis,home,ICU
+PT00931,25,F,2024-02-17,2024-02-20,3,Cancer Treatment,home,Cardiology
+PT00932,27,M,2024-02-08,2024-02-16,8,Cancer Treatment,home,Surgery
+PT00933,86,F,2024-01-30,2024-02-07,8,Stroke,home,Surgery
+PT00934,90,M,2024-02-01,2024-02-04,3,Cancer Treatment,home,ICU
+PT00935,91,F,2024-01-14,2024-01-21,7,Kidney Disease,home,ICU
+PT00936,39,M,2024-01-14,2024-01-17,3,Cancer Treatment,home,General Medicine
+PT00937,38,F,2024-03-25,2024-03-31,6,Sepsis,home,Emergency
+PT00938,65,F,2024-02-11,2024-02-15,4,Hip Fracture,home,General Medicine
+PT00939,48,M,2024-03-18,2024-03-20,2,Hip Fracture,home,Surgery
+PT00940,64,F,2024-02-02,2024-02-03,1,Kidney Disease,transferred,Cardiology
+PT00941,54,M,2024-01-05,2024-01-12,7,Cancer Treatment,home,General Medicine
+PT00942,56,M,2024-01-01,2024-01-10,9,Stroke,home,Cardiology
+PT00943,53,M,2024-03-29,2024-04-02,4,Heart Failure,home,General Medicine
+PT00944,35,F,2024-01-20,2024-01-23,3,Sepsis,home,Pulmonology
+PT00945,50,F,2024-01-30,2024-01-31,1,Heart Failure,home,Emergency
+PT00946,27,F,2024-01-28,2024-02-04,7,Kidney Disease,home,Nephrology
+PT00947,91,M,2024-03-29,2024-04-02,4,Surgical Procedure,home,Cardiology
+PT00948,66,M,2024-03-14,2024-03-16,2,Pneumonia,transferred,General Medicine
+PT00949,73,F,2024-02-14,2024-02-20,6,Heart Failure,home,Pulmonology
+PT00950,95,M,2024-03-24,2024-03-25,1,Hip Fracture,home,Emergency
+PT00951,58,M,2024-01-06,2024-01-07,1,Sepsis,home,Pulmonology
+PT00952,24,F,2024-01-20,2024-01-21,1,Kidney Disease,home,Emergency
+PT00953,29,M,2024-03-05,2024-03-09,4,Hip Fracture,home,ICU
+PT00954,34,F,2024-01-19,2024-01-22,3,Heart Failure,home,Surgery
+PT00955,88,F,2024-01-07,2024-01-12,5,COPD,home,Emergency
+PT00956,34,M,2024-02-25,2024-03-03,7,Kidney Disease,home,ICU
+PT00957,91,M,2024-02-20,2024-02-25,5,Cancer Treatment,home,Surgery
+PT00958,49,M,2024-03-08,2024-03-19,11,Heart Failure,home,ICU
+PT00959,91,M,2024-02-11,2024-02-18,7,Heart Failure,home,ICU
+PT00960,62,M,2024-02-16,2024-02-19,3,Sepsis,home,Surgery
+PT00961,57,M,2024-01-04,2024-01-06,2,Sepsis,home,Nephrology
+PT00962,36,F,2024-02-26,2024-02-29,3,Pneumonia,transferred,Pulmonology
+PT00963,65,M,2024-01-26,2024-01-31,5,Heart Failure,home,Cardiology
+PT00964,36,F,2024-02-01,2024-02-03,2,Pneumonia,home,Nephrology
+PT00965,57,F,2024-01-15,2024-01-20,5,Kidney Disease,home,Pulmonology
+PT00966,45,M,2024-03-09,2024-03-14,5,Cancer Treatment,home,General Medicine
+PT00967,79,M,2024-03-11,2024-03-12,1,Pneumonia,home,Surgery
+PT00968,23,F,2024-03-08,2024-03-14,6,Diabetes Complications,home,Pulmonology
+PT00969,52,M,2024-03-30,2024-04-03,4,Kidney Disease,home,Cardiology
+PT00970,67,F,2024-01-09,2024-01-19,10,Sepsis,home,Cardiology
+PT00971,67,M,2024-02-07,2024-02-10,3,Hip Fracture,home,Surgery
+PT00972,58,F,2024-01-13,2024-01-15,2,Surgical Procedure,home,Pulmonology
+PT00973,82,F,2024-01-26,2024-01-27,1,Cancer Treatment,transferred,Cardiology
+PT00974,49,F,2024-01-06,2024-01-07,1,Sepsis,home,Surgery
+PT00975,20,F,2024-01-21,2024-01-27,6,Sepsis,home,General Medicine
+PT00976,82,F,2024-01-31,2024-02-09,9,Pneumonia,home,ICU
+PT00977,89,F,2024-01-04,2024-01-07,3,Stroke,home,ICU
+PT00978,35,M,2024-03-25,2024-03-27,2,Hip Fracture,home,Surgery
+PT00979,47,F,2024-03-19,2024-03-22,3,Stroke,home,ICU
+PT00980,95,F,2024-02-09,2024-02-16,7,Kidney Disease,home,Pulmonology
+PT00981,35,M,2024-03-24,2024-03-25,1,Diabetes Complications,home,Surgery
+PT00982,35,F,2024-03-08,2024-03-11,3,Diabetes Complications,home,Emergency
+PT00983,58,M,2024-01-21,2024-01-27,6,Cancer Treatment,home,Surgery
+PT00984,41,F,2024-01-16,2024-01-20,4,Diabetes Complications,home,Nephrology
+PT00985,70,F,2024-02-10,2024-02-11,1,COPD,home,Nephrology
+PT00986,53,M,2024-03-22,2024-03-27,5,Stroke,home,Pulmonology
+PT00987,52,M,2024-01-04,2024-01-08,4,Surgical Procedure,home,Surgery
+PT00988,63,M,2024-01-04,2024-01-12,8,Kidney Disease,home,Nephrology
+PT00989,78,F,2024-03-18,2024-03-27,9,Diabetes Complications,home,ICU
+PT00990,35,M,2024-03-01,2024-03-09,8,Stroke,home,ICU
+PT00991,52,F,2024-01-02,2024-01-05,3,Stroke,home,Pulmonology
+PT00992,26,M,2024-01-27,2024-01-28,1,Kidney Disease,home,ICU
+PT00993,59,F,2024-03-29,2024-03-31,2,Stroke,home,Nephrology
+PT00994,95,F,2024-01-06,2024-01-09,3,Sepsis,home,Surgery
+PT00995,94,M,2024-03-14,2024-03-23,9,Cancer Treatment,home,ICU
+PT00996,49,F,2024-01-06,2024-01-07,1,Pneumonia,home,Emergency
+PT00997,24,M,2024-03-21,2024-03-22,1,COPD,home,General Medicine
+PT00998,77,M,2024-02-06,2024-02-08,2,Hip Fracture,home,Cardiology
+PT00999,84,M,2024-03-29,2024-03-30,1,Kidney Disease,home,ICU

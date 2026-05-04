@@ -10,8 +10,8 @@ __pycache__/
 .pytest_cache/
 
 # Data files
-data/sample_data/*.csv
-data/sample_data/*.xlsx
+#data/sample_data/*.csv
+#data/sample_data/*.xlsx
 
 # Reports
 reports/*.pdf
