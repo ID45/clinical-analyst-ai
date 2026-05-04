@@ -6,6 +6,10 @@ import sys
 import os
 import pandas as pd
 import streamlit as st
+# Auto-generate sample data if missing
+if not os.path.exists("data/sample_data"):
+    os.makedirs("data/sample_data", exist_ok=True)
+    exec(open("generate_sample_data.py").read())
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'agents'))
 
