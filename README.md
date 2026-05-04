@@ -73,6 +73,20 @@ OPENAI_API_KEY=your-openai-api-key-here
 
 ## Data Setup
 
+### Option A — Generate sample data (quickest way to get started)
+
+A data generation script is included. Run it once to create realistic synthetic CSV files in `data/sample_data/`:
+
+```bash
+python generate_sample_data.py
+```
+
+This creates 1,000 synthetic patient records across Q1 2024 with matching readmissions, infections, claims, appointments, and survey data.
+
+### Option B — Bring your own data
+
+Place your own CSV files in `data/sample_data/` using the column schemas below, or upload them directly in the app via the **Upload Data** page.
+
 The app expects six CSV files placed in `data/sample_data/`. The required columns for each file are listed below.
 
 ### `patients.csv`
